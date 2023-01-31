@@ -1,0 +1,87 @@
+// colors
+.txWhite {
+	color: #ffffff;
+}
+
+.txDark {
+	color: #0b0a0d;
+}
+
+.txDarkLight {
+	color: #00000099;
+}
+
+// titles
+.h1 {
+	font-family: "MPLUS1p";
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 85px;
+	letter-spacing: -0.03em;
+
+	&--white {
+		color: #ffffff;
+	}
+
+	&--dark {
+		color: #0b0a0d;
+	}
+
+	@media (max-width: $media_md) {
+		font-size: 40px;
+	}
+}
+
+.h2 {
+	font-family: "MPLUS1p";
+	font-size: 24px;
+	line-height: 35px;
+	color: #ffffff;
+}
+
+// text
+.tx516 {
+	font-family: "MPLUS1p";
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+}
+
+.tx514 {
+	font-family: "MPLUS1p";
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	color: #ffffff;
+}
+
+.tx416 {
+	font-family: "MPLUS1p";
+	font-size: 16px;
+
+	&--24 {
+		line-height: 24px;
+		color: #ffffff;
+	}
+
+	&--20 {
+		line-height: 20px;
+		color: #0b0a0d;
+
+		// @media (max-width: $media_md) {
+		// 	line-height: 18px;
+		// }
+	}
+}
+
+.tx414 {
+	font-family: "MPLUS1p";
+	font-size: 14px;
+	line-height: 20px;
+	color: #00000099;
+
+	@media (max-width: $media_md) {
+		line-height: 18px;
+	}
+}

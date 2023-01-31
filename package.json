@@ -1,0 +1,33 @@
+{
+  "name": "bp-landing",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "generate-icons": "vsvg -s ./assets/svg -t ./components/svg-icons",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/style-resources": "^1.2.1",
+    "core-js": "^3.19.3",
+    "generate-icons": "^0.1.10",
+    "nuxt": "^2.15.8",
+    "swiper": "^5.4.5",
+    "vue": "^2.6.14",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-server-renderer": "^2.6.14",
+    "vue-svgicon": "^3.2.9",
+    "libphonenumber-js": "^1.10.15",
+    "vue-template-compiler": "^2.6.14",
+    "vuelidate": "^0.7.7",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "sass": "^1.32.7",
+    "sass-loader": "^10.1.1"
+  }
+}
